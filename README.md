@@ -15,7 +15,7 @@ MyTestWAF,192.168.1.1/32,Some comment
 
 ```hcl
 module "waf" {
-  source = "git::https://github.com:travisz/terraform-aws-waf-ip-whitelist.git?ref=master"
+  source = "git::https://github.com/travisz/terraform-aws-waf-ip-whitelist?ref=master"
   waf_name = "MyTestWAF"
   csv_name = "path/to/csv"
 }
